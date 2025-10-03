@@ -18,4 +18,7 @@ Set the following six environment variables:
   * LANGSMITH_PROJECT="your project name"
   * OPENAI_API_KEY="your openai api key"
 
+Then clone the repository, create a Google developer account and follow Google's instructions for the Gmail API setup (involves download credentials.json and generating a tokens.json with the first sign in), and create an OpenAPI developer account to access the API key. Also create a new LangSmith project to trace Sizzler and receive the API key after that. After these steps and the environment variables are set, the code should be fully functional. If you do not want to send an email but just want to retrieve a list of listings, you only need the short get_llm_results() function.
+
+
 
