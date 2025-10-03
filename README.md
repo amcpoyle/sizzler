@@ -11,10 +11,11 @@ It is an LLM agent built with LangChain that can be provided queries in a specif
 * An email address (your personal email) to receive emails
 # Setup 
 Set the following six environment variables:
-  *RECEIVER_EMAIL = "your personal email"
+  * RECEIVER_EMAIL = "your personal email"
   * SENDER_EMAIL = "the designated email to send alerts from"
   * LANGSMITH_TRACING="true"
   * LANGSMITH_API_KEY="your api key"
   * LANGSMITH_PROJECT="your project name"
   * OPENAI_API_KEY="your openai api key"
+
 
