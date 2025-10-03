@@ -9,10 +9,12 @@ It is an LLM agent built with LangChain that can be provided queries in a specif
 * Google developer account
 * An email address to send the alerts from
 * An email address (your personal email) to receive emails
-* Set the following six environment variables:
-  **RECEIVER_EMAIL = "your personal email"
-  ** SENDER_EMAIL = "the designated email to send alerts from"
-  ** LANGSMITH_TRACING="true"
-  ** LANGSMITH_API_KEY="your api key"
-  ** LANGSMITH_PROJECT="your project name"
-  ** OPENAI_API_KEY="your openai api key"
+# Setup 
+Set the following six environment variables:
+  *RECEIVER_EMAIL = "your personal email"
+  * SENDER_EMAIL = "the designated email to send alerts from"
+  * LANGSMITH_TRACING="true"
+  * LANGSMITH_API_KEY="your api key"
+  * LANGSMITH_PROJECT="your project name"
+  * OPENAI_API_KEY="your openai api key"
+
